@@ -12,6 +12,7 @@
 		FA2771681DB6D138002CA5BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2771661DB6D138002CA5BC /* Main.storyboard */; };
 		FA27716A1DB6D138002CA5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2771691DB6D138002CA5BC /* Assets.xcassets */; };
 		FA27716D1DB6D138002CA5BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA27716B1DB6D138002CA5BC /* LaunchScreen.storyboard */; };
+		FA2771751DB6E08D002CA5BC /* EmojiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2771741DB6E08D002CA5BC /* EmojiData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA2771691DB6D138002CA5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA27716C1DB6D138002CA5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA27716E1DB6D138002CA5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2771741DB6E08D002CA5BC /* EmojiData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FA2771621DB6D138002CA5BC /* AppDelegate.swift */,
 				FA2771641DB6D138002CA5BC /* ViewController.swift */,
+				FA2771741DB6E08D002CA5BC /* EmojiData.swift */,
 				FA2771661DB6D138002CA5BC /* Main.storyboard */,
 				FA2771691DB6D138002CA5BC /* Assets.xcassets */,
 				FA27716B1DB6D138002CA5BC /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					FA27715E1DB6D138002CA5BC = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T9VUHG6RU2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2771651DB6D138002CA5BC /* ViewController.swift in Sources */,
+				FA2771751DB6E08D002CA5BC /* EmojiData.swift in Sources */,
 				FA2771631DB6D138002CA5BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9VUHG6RU2;
 				INFOPLIST_FILE = emojiHello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NascimentoWes.emojiHello;
@@ -272,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T9VUHG6RU2;
 				INFOPLIST_FILE = emojiHello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NascimentoWes.emojiHello;
